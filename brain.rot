@@ -1,0 +1,9 @@
+bawe "Enter your age:"
+oi! age is int(sun())
+
+check mar age 🔼🟰 18 🤝 age 🔽🟰 100 {
+    bawe "Valid age"
+}
+varna {
+    bawe "Invalid age"
+}
