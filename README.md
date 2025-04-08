@@ -1,6 +1,6 @@
-# BrainRotto Language Interpreter
+# BrainRot Language Interpreter
 
-BrainRotto is a fun, emoji and desi-language flavored interpreted language designed for creativity and chaos. This interpreter allows you to tokenize and execute `.rot` files written in BrainRot syntax.
+BrainRot is a fun, emoji and desi-language flavored interpreted language designed for creativity and chaos. This interpreter allows you to tokenize and execute `.rot` files written in BrainRot syntax.
 
 ## 🔥 Features
 
@@ -52,3 +52,40 @@ check mar x 🔼 5 {
 ## 📁 License
 
 MIT License
+
+## ▶️ How to Run
+
+1. Save your BrainRot code in a file with the `.rot` extension.
+2. Run the interpreter using Python:
+
+```bash
+python brainrot_interpreter.py your_code.rot
+```
+
+Replace `your_code.rot` with your actual filename.
+
+---
+
+## 🛠️ How to Make an EXE (Windows)
+
+You can turn the interpreter into a standalone `.exe` using `pyinstaller`:
+
+1. Install pyinstaller (if you haven't):
+```bash
+pip install pyinstaller
+```
+
+2. Run the following command to generate an executable:
+```bash
+pyinstaller --onefile brainrot_interpreter.py
+```
+
+3. After it's done, check the `dist` folder for `brainrot_interpreter.exe`.
+
+Now you can run `.rot` files without needing Python installed!
+
+```bash
+brainrot_interpreter.exe your_code.rot
+```
+
+Make sure your `.rot` files are UTF-8 encoded and accessible from the same directory.
